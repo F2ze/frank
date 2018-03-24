@@ -44,7 +44,7 @@ bot.on('message', function (message) {
     }
 })
 
-bot.login('NDIxMDM2NTk0NTgxOTk1NTIy.DYHYgw.zDy-cpvMdwsoBTYYVLQIt2MD0wE')
+bot.login('process.env.TOKEN')
 
 function newFunction() {
     return bot.on;
